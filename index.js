@@ -40,7 +40,6 @@ export const stylisticRecommended = [
       ...applyLevel('warn', stylistic.configs['recommended-flat']['rules']),
       '@stylistic/max-len': ['warn', { code: 132 }],
       '@stylistic/indent': ['warn', 2],
-      '@stylistic/arrow-parens': ['warn', 'always'],
     },
     ignores: ['dist/**/*'],
   },
